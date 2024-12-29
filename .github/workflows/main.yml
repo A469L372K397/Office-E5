@@ -7,9 +7,9 @@ on:
   schedule:
     - cron: '0 0/6 15 1/2 ?'
   release:
-    types: [published]
+    types: published
   watch:
-    types: [started]
+    types: started
 
 jobs: 
   Call-APi:
